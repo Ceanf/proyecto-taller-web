@@ -1,1 +1,91 @@
+<!DOCTYPE html>
+<html>
 
+<head>
+    <title>Carrito</title>
+    <link rel="stylesheet" href="style.css">
+
+</head>
+
+<body>
+
+    <div class="header">
+        <a href="#"><img src="img/552848.png" alt="Icono de perfil" /></a>
+        <a href="#"><img src="img/3144456.png" alt="Icono de carrito" /></a>
+    </div>
+
+    <div class="superior-cart">
+        <div class="cart-title"> <strong>Mi Carrito</strong></div>
+        <div>
+            <a href="http://127.0.0.1:5500/index.html">
+                < Sigue comprando</a>
+        </div>
+
+    </div>
+    <hr>
+    <div>
+        <center> <strong>Envio gratis|</strong> Solo para pedidos mayores a S/.100 en Lima, Arequipa y Trujillo
+        </center>
+    </div>
+
+    <div class="cart-sup">
+
+        <div class="cart-container">
+
+            <div class="cart-item">
+                <div class="cart-item-details">
+                    <div class="cart-item-title">Cama Azul-Pets</div>
+                    <div class="cart-tacho">
+                        <a href="#"><img src="img/tacho.png" alt="tacho"></a>
+                    </div>
+
+                    <div class="cart-item-img">
+                        <a href="#"><img src="img/pets1.png" alt="Articulo"></a>
+                    </div>
+                    <div>Mpets MD005358</div>
+                    <div>Formato: Talla M</div>
+                    <div class="cart-item-price">S/. 200</div>
+                </div>
+                <div class="cart-item-quantity">
+                    <button>-</button>
+                    <input type="number" value="1">
+                    <button>+</button>
+                </div>
+                <div>S/.200</div>
+            </div>
+
+            <div class="cart-item">
+                <div class="cart-item-details">
+                    <div class="cart-item-title"> Arena para gato</div>
+                    <div class="cart-tacho">
+                        <a href="#"><img src="img/tacho.png" alt="tacho"></a>
+                    </div>
+                    <div class="cart-item-img">
+                        <a href="#"><img src="img/arena1.png" alt="Articulo"></a>
+                    </div>
+                    <div> Cat MD005358</div>
+                    <div> 20 kg</div>
+                    <div class="cart-item-price">S/. 90</div>
+                </div>
+                <div class="cart-item-quantity">
+                    <button>-</button>
+                    <input type="number" value="1">
+                    <button>+</button>
+                </div>
+                <div>S/.180</div>
+            </div>
+
+        </div>
+
+        <div class="detail-price">
+            <div class="detail-title"> N°. Productos:</div>
+            <hr>
+            <div class="detail-title"> TOTAL:</div>
+            <div>
+                <button class="continue-btn">Continuar compra</button>
+            </div>
+
+        </div>
+</body>
+
+</html>
